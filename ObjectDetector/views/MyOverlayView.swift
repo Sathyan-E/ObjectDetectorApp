@@ -33,11 +33,9 @@ class MyOverlayView: UIView {
   }
 
   func drawBorders(of objectOverlay: ObjectOverlay) {
-
     let path = UIBezierPath(rect: objectOverlay.borderRect)
     path.lineWidth = lineWidth
     objectOverlay.color.setStroke()
-
     path.stroke()
   }
 

@@ -151,7 +151,6 @@ class MyModelDataHandler {
         return nil
       }
 
-      let interval: TimeInterval
       let outputBoundingBox: Tensor
       let outputClasses: Tensor
       let outputScores: Tensor
@@ -179,7 +178,6 @@ class MyModelDataHandler {
         // Run inference by invoking the `Interpreter`.
         let startDate = Date()
         try interpreter.invoke()
-        interval = Date().timeIntervalSince(startDate) * 1000
 
         outputBoundingBox = try interpreter.output(at: 0)
         outputClasses = try interpreter.output(at: 1)
