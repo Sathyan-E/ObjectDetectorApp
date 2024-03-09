@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1762F272B9C046000BDFABF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1762F262B9C046000BDFABF /* MainViewController.swift */; };
+		A1762F2D2B9C0FEA00BDFABF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1762F2B2B9C0FEA00BDFABF /* SecondViewController.swift */; };
 		A1FB2C7E2B95D617004D260A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FB2C7D2B95D617004D260A /* AppDelegate.swift */; };
 		A1FB2C802B95D617004D260A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FB2C7F2B95D617004D260A /* SceneDelegate.swift */; };
-		A1FB2C822B95D617004D260A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FB2C812B95D617004D260A /* ViewController.swift */; };
 		A1FB2C852B95D617004D260A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FB2C832B95D617004D260A /* Main.storyboard */; };
 		A1FB2C872B95D618004D260A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1FB2C862B95D618004D260A /* Assets.xcassets */; };
 		A1FB2C8A2B95D618004D260A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FB2C882B95D618004D260A /* LaunchScreen.storyboard */; };
+		A1FB2C942B980768004D260A /* MyOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FB2C932B980768004D260A /* MyOverlayView.swift */; };
+		A1FB2C962B9954B1004D260A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FB2C952B9954B1004D260A /* UIColor+Extension.swift */; };
+		A1FB2C982B9954D2004D260A /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FB2C972B9954D2004D260A /* String + Extension.swift */; };
+		A1FB2C9A2B995AFC004D260A /* PixelBuffer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FB2C992B995AFC004D260A /* PixelBuffer+Extension.swift */; };
+		A1FB2C9C2B995B1E004D260A /* UIImage + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FB2C9B2B995B1E004D260A /* UIImage + Extension.swift */; };
+		A1FB2C9E2B995C44004D260A /* MyModelDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FB2C9D2B995C44004D260A /* MyModelDataHandler.swift */; };
+		A1FB2CA22B995D5E004D260A /* labelmap.txt in Resources */ = {isa = PBXBuildFile; fileRef = A1FB2CA02B995D5E004D260A /* labelmap.txt */; };
+		A1FB2CA32B995D5E004D260A /* detect.tflite in Resources */ = {isa = PBXBuildFile; fileRef = A1FB2CA12B995D5E004D260A /* detect.tflite */; };
+		B88D09D39F230B8CCB2D4E5A /* Pods_ObjectDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA43B04F1E2928ADD62574DF /* Pods_ObjectDetector.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C58396EF64DFBEE2241C112 /* Pods-ObjectDetector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectDetector.debug.xcconfig"; path = "Target Support Files/Pods-ObjectDetector/Pods-ObjectDetector.debug.xcconfig"; sourceTree = "<group>"; };
+		A1762F262B9C046000BDFABF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A1762F2B2B9C0FEA00BDFABF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A1FB2C7A2B95D617004D260A /* ObjectDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1FB2C7D2B95D617004D260A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1FB2C7F2B95D617004D260A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A1FB2C812B95D617004D260A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1FB2C842B95D617004D260A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1FB2C862B95D618004D260A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1FB2C892B95D618004D260A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1FB2C8B2B95D618004D260A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1FB2C932B980768004D260A /* MyOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOverlayView.swift; sourceTree = "<group>"; };
+		A1FB2C952B9954B1004D260A /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		A1FB2C972B9954D2004D260A /* String + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		A1FB2C992B995AFC004D260A /* PixelBuffer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PixelBuffer+Extension.swift"; sourceTree = "<group>"; };
+		A1FB2C9B2B995B1E004D260A /* UIImage + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage + Extension.swift"; sourceTree = "<group>"; };
+		A1FB2C9D2B995C44004D260A /* MyModelDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModelDataHandler.swift; sourceTree = "<group>"; };
+		A1FB2CA02B995D5E004D260A /* labelmap.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = labelmap.txt; sourceTree = "<group>"; };
+		A1FB2CA12B995D5E004D260A /* detect.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = detect.tflite; sourceTree = "<group>"; };
+		BA43B04F1E2928ADD62574DF /* Pods_ObjectDetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectDetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2E07CB93B127B2967B69F5D /* Pods-ObjectDetector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectDetector.release.xcconfig"; path = "Target Support Files/Pods-ObjectDetector/Pods-ObjectDetector.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B88D09D39F230B8CCB2D4E5A /* Pods_ObjectDetector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		318B14C0AD6FA89997C17CBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C58396EF64DFBEE2241C112 /* Pods-ObjectDetector.debug.xcconfig */,
+				E2E07CB93B127B2967B69F5D /* Pods-ObjectDetector.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4487359AA8AE1214BC42F1E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA43B04F1E2928ADD62574DF /* Pods_ObjectDetector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1762F282B9C0F7F00BDFABF /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				A1762F262B9C046000BDFABF /* MainViewController.swift */,
+				A1762F2B2B9C0FEA00BDFABF /* SecondViewController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		A1762F292B9C0F8B00BDFABF /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A1FB2C9B2B995B1E004D260A /* UIImage + Extension.swift */,
+				A1FB2C992B995AFC004D260A /* PixelBuffer+Extension.swift */,
+				A1FB2C972B9954D2004D260A /* String + Extension.swift */,
+				A1FB2C952B9954B1004D260A /* UIColor+Extension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		A1762F2A2B9C0F9500BDFABF /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A1FB2C932B980768004D260A /* MyOverlayView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		A1AE26D52B9C518300B1FA6E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		A1FB2C712B95D617004D260A = {
 			isa = PBXGroup;
 			children = (
 				A1FB2C7C2B95D617004D260A /* ObjectDetector */,
 				A1FB2C7B2B95D617004D260A /* Products */,
+				318B14C0AD6FA89997C17CBD /* Pods */,
+				4487359AA8AE1214BC42F1E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +133,29 @@
 		A1FB2C7C2B95D617004D260A /* ObjectDetector */ = {
 			isa = PBXGroup;
 			children = (
+				A1AE26D52B9C518300B1FA6E /* New Group */,
+				A1762F2A2B9C0F9500BDFABF /* views */,
+				A1762F292B9C0F8B00BDFABF /* extensions */,
+				A1762F282B9C0F7F00BDFABF /* viewcontrollers */,
+				A1FB2C9F2B995D4F004D260A /* model */,
 				A1FB2C7D2B95D617004D260A /* AppDelegate.swift */,
 				A1FB2C7F2B95D617004D260A /* SceneDelegate.swift */,
-				A1FB2C812B95D617004D260A /* ViewController.swift */,
 				A1FB2C832B95D617004D260A /* Main.storyboard */,
 				A1FB2C862B95D618004D260A /* Assets.xcassets */,
 				A1FB2C882B95D618004D260A /* LaunchScreen.storyboard */,
 				A1FB2C8B2B95D618004D260A /* Info.plist */,
 			);
 			path = ObjectDetector;
+			sourceTree = "<group>";
+		};
+		A1FB2C9F2B995D4F004D260A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A1FB2C9D2B995C44004D260A /* MyModelDataHandler.swift */,
+				A1FB2CA12B995D5E004D260A /* detect.tflite */,
+				A1FB2CA02B995D5E004D260A /* labelmap.txt */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +165,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1FB2C8E2B95D618004D260A /* Build configuration list for PBXNativeTarget "ObjectDetector" */;
 			buildPhases = (
+				F4839B537EC8488A9E636A78 /* [CP] Check Pods Manifest.lock */,
 				A1FB2C762B95D617004D260A /* Sources */,
 				A1FB2C772B95D617004D260A /* Frameworks */,
 				A1FB2C782B95D617004D260A /* Resources */,
@@ -125,22 +217,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1FB2CA22B995D5E004D260A /* labelmap.txt in Resources */,
 				A1FB2C8A2B95D618004D260A /* LaunchScreen.storyboard in Resources */,
 				A1FB2C872B95D618004D260A /* Assets.xcassets in Resources */,
 				A1FB2C852B95D617004D260A /* Main.storyboard in Resources */,
+				A1FB2CA32B995D5E004D260A /* detect.tflite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F4839B537EC8488A9E636A78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjectDetector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1FB2C762B95D617004D260A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1FB2C822B95D617004D260A /* ViewController.swift in Sources */,
+				A1FB2C9A2B995AFC004D260A /* PixelBuffer+Extension.swift in Sources */,
+				A1FB2C942B980768004D260A /* MyOverlayView.swift in Sources */,
+				A1762F2D2B9C0FEA00BDFABF /* SecondViewController.swift in Sources */,
+				A1FB2C982B9954D2004D260A /* String + Extension.swift in Sources */,
 				A1FB2C7E2B95D617004D260A /* AppDelegate.swift in Sources */,
+				A1FB2C9C2B995B1E004D260A /* UIImage + Extension.swift in Sources */,
 				A1FB2C802B95D617004D260A /* SceneDelegate.swift in Sources */,
+				A1FB2C962B9954B1004D260A /* UIColor+Extension.swift in Sources */,
+				A1FB2C9E2B995C44004D260A /* MyModelDataHandler.swift in Sources */,
+				A1762F272B9C046000BDFABF /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,14 +413,16 @@
 		};
 		A1FB2C8F2B95D618004D260A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C58396EF64DFBEE2241C112 /* Pods-ObjectDetector.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H8R52M97MX;
+				DEVELOPMENT_TEAM = 932BY3Q6F7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ObjectDetector/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow to access to pick a photo for object detection";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -305,7 +433,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sathyan.ai.ObjectDetector;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kommunicate.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -315,14 +443,16 @@
 		};
 		A1FB2C902B95D618004D260A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E07CB93B127B2967B69F5D /* Pods-ObjectDetector.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H8R52M97MX;
+				DEVELOPMENT_TEAM = 932BY3Q6F7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ObjectDetector/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow to access to pick a photo for object detection";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -333,7 +463,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sathyan.ai.ObjectDetector;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kommunicate.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
